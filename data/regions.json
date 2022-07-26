@@ -1,0 +1,49 @@
+[{
+    "name": "Kanto",
+    "cities": [
+      "Pallet Town"
+    ]  
+  },
+  {
+    "name": "Johto",
+    "cities":[
+      "Viridian City"
+    ] 
+  },
+  {
+    "name": "Hoenn",
+    "cities":[
+      "Vermillion City"
+    ]    
+  },
+  {
+    "name": "Sinnoh",
+    "cities":[
+      "Celadon City"
+    ]    
+  },
+  {
+    "name": "Unova",
+    "cities":[
+      "Cinnabar Island"
+    ]
+  },
+  {
+    "name": "Kalos",
+    "cities":[
+      "Littleroot Town"
+    ]
+  },
+  {
+    "name": "Alola",
+    "cities":[
+      "New Mauville"
+    ]
+  },
+  {
+    "name": "Galar",
+    "cities":[
+      "Pewter City"
+    ]    
+  }
+]

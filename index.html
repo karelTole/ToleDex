@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assests/styles.css">
+    <script async src="assests/app.js"></script>
+    <title>Pokedex</title>
+</head>
+<body>
+    <div class="container  show-grid">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Pokedex</h1>
+                <p>Aprendiendo javascript con una pokedex</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <form action="index.php" method="GET">
+                    <div class="form-group">
+                        <label for="search">Busca por nombre</label>
+                        <input type="text" class="form-control" id="search" name="search" placeholder="Search">
+                    </div>
+                    <div class="form-group">
+                        <label for="select">También puedes seleccionar por región</label>
+                        <select class="form-control" id="locality-dropdown" name="select">
+                            <!--option value="1">Kanto</!--option>
+                            <option value="2">Johto</option>
+                            <option value="3">Hoenn</option>
+                            <option value="4">Sinnoh</option>
+                            <option value="5">Unova</option>
+                            <option value="6">Kalos</option>
+                            <option-- value="7">Alola</option-->
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Search</button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">Pokemon</div>
+            <div class="col-md-6">Datos</div>
+        </div>
+        <div class="row">
+            <div class="col-md-auto">JSON</div>
+            <pre id="json"></pre>
+        </div>
+        
+        
+</body>
+</html>
